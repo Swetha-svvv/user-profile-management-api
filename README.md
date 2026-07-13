@@ -221,7 +221,7 @@ MOCK_SERVICE_DELAY_MS=200
 ## Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Swetha-svvv/user-profile-management-api.git
 
 cd user-profile-management-api
 ```
