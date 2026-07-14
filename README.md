@@ -220,14 +220,19 @@ MOCK_SERVICE_DELAY_MS=200
 - `.env` → Used for Docker Compose.
 - `.env.test` → Used for running integration tests locally.
 
-Docker:
+### Docker
+
+```text
 DB_HOST=db
 EXTERNAL_SERVICE_URL=http://mock-service:8081/enrich
+```
 
-Local Testing:
+### Local Testing
+
+```text
 DB_HOST=localhost
 EXTERNAL_SERVICE_URL=http://localhost:8081/enrich
----
+```
 # Running the Project
 
 ## Clone Repository
