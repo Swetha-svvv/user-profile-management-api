@@ -215,7 +215,19 @@ MOCK_SERVICE_DELAY_MS=200
 > For Docker Compose, keep the service names (`db` and `mock-service`) as shown above.
 
 ---
+## Environment Files
 
+- `.env` → Used for Docker Compose.
+- `.env.test` → Used for running integration tests locally.
+
+Docker:
+DB_HOST=db
+EXTERNAL_SERVICE_URL=http://mock-service:8081/enrich
+
+Local Testing:
+DB_HOST=localhost
+EXTERNAL_SERVICE_URL=http://localhost:8081/enrich
+---
 # Running the Project
 
 ## Clone Repository
